@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN echo chmod +x shell.sh
+RUN sudo chmod +x shell.sh
 RUN echo bash shell.sh
