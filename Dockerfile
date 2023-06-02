@@ -1,4 +1,5 @@
 FROM ubuntu
+RUN docker system prune
 RUN apt-get install shell
 RUN apt-get install sh
 #RUN chmod +x shell.sh
